@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>\
+    <link rel ="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="myDIV" class="header">
+        <h2>My To Do List</h2>
+        <input type="text" id="myInput" placeholder="Title...">
+        <span onclick="newElement()" class="addBtn">Things to Add</span>
+      </div>
+      
+      <ul id="myUL">
+        <li> morning 6 - wakeup early</li>
+        <li class="checked">morning 9 - college special class </li>
+        <li>Morning 10 - meeting at seminor hall</li>
+        <li>afternoon 12 - get letter from hod for cultural program</li>
+        <li>afternoon 1 - to meet group member for discussion</li>
+        <li>afternoon 3 - purchasing of things</li>
+      </ul>
+      <button input="button">submit</button>
+      
+      <button input="button" value="Remove All" onclick="removeAll()"> removeAll</button>
+
+    <script src ="script.js"></script>
+</body>
+</html>
